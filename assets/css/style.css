@@ -196,6 +196,12 @@ i {
   color: var(--color-logo);
 }
 
+.dados-banner {
+  position: relative;
+  bottom: 20rem;
+  left: 221px;
+}
+
 /* ================ FIM SEÇÃO DE INFORMAÇÕES */
 
 /* ================ RODAPÉ */
