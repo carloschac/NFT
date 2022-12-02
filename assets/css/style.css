@@ -59,6 +59,7 @@ a {
 }
 /* ================ FIM HEADER */
 
+/* ================ SEÇÃO DESCRIÇÃO*/
 .descricao {
   color: var(--text-color);
   margin-top: 100px;
@@ -95,3 +96,43 @@ a {
 .trecho {
   color: var(--color-logo);
 }
+/* ================ FIM SEÇÃO DESCRIÇÃO */
+
+/* ================ SEÇÃO DE CARDS */
+.galeria {
+  margin-top: 100px;
+}
+
+.card-align1 {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.card-align2 {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.card {
+  border: solid 1px var(--text-color);
+}
+
+.galeria-wrap {
+  margin-top: 2rem;
+}
+
+/* ================ FIM SEÇÃO DE CARDS */
+
+/* ================ SEÇÃO DE INFORMAÇÕES */
+
+.dados {
+  background: var(--body-background);
+}
+
+.container-dados {
+  max-width: 1460px;
+  margin: auto;
+}
+
+/* ================ FIM SEÇÃO DE INFORMAÇÕES */
