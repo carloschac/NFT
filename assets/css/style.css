@@ -1,0 +1,97 @@
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0d0d0d;
+  --font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ================ HEADER */
+
+.introducao {
+  background: url(/assets/img/background.png);
+}
+
+.introducao header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 62px;
+  font-family: var(--font-family);
+}
+
+.container-introducao {
+  max-width: 1460px;
+  margin: auto;
+}
+
+.menu-navegacao ul {
+  display: flex;
+  gap: 4rem;
+}
+
+.menu-navegacao li a {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.metamask-button {
+  background-image: url(/assets/img/logo_MetaMask.svg);
+  background-repeat: no-repeat;
+  background-position: 10%;
+  cursor: pointer;
+  padding: 15px 34px 13px 33px;
+  border: none;
+  border-radius: 2px;
+}
+
+.metamask-button span {
+  font-weight: 700;
+  text-align: end;
+  margin-left: 26px;
+}
+/* ================ FIM HEADER */
+
+.descricao {
+  color: var(--text-color);
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-family);
+}
+
+.box-texto1 {
+  width: 24%;
+}
+
+.box-texto1 span {
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.box-imagem1 {
+  display: flex;
+  padding-top: 2.5rem;
+}
+
+.box-texto-imagem1 {
+  padding-top: 20px;
+  padding-left: 12px;
+}
+
+.box-texto2 {
+  width: 42%;
+  font-size: 55px;
+  padding-left: 8rem;
+}
+
+.trecho {
+  color: var(--color-logo);
+}
