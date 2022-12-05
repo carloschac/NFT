@@ -130,6 +130,7 @@ a {
   background: var(--body-background);
   color: var(--text-color);
   font-family: var(--font-family);
+  border-bottom: solid 1px var(--subtitle-color);
 }
 
 .container-dados {
@@ -137,7 +138,12 @@ a {
   margin: auto;
 }
 
+.absolute-container {
+  margin-bottom: 165px;
+}
+
 .sidebar-dados {
+  position: absolute;
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -172,16 +178,16 @@ a {
 }
 
 .dados-texto-container {
-  width: 1100px;
-  position: relative;
-  left: 21rem;
-  bottom: 27rem;
   display: flex;
-  gap: 13rem;
+  position: relative;
+  left: 24rem;
+  top: 4rem;
+  width: 1000px;
+  justify-content: space-between;
 }
 
 .dados-texto {
-  width: 435px;
+  width: 358px;
 }
 
 .dados-botao {
@@ -198,11 +204,93 @@ i {
 
 .dados-banner {
   position: relative;
-  bottom: 20rem;
-  left: 221px;
+  left: 287px;
+  width: 1395px;
+  top: 167px;
+}
+
+.dados-banner img {
+  width: 1394px;
+  height: 300px;
+  object-fit: cover;
 }
 
 /* ================ FIM SEÇÃO DE INFORMAÇÕES */
+
+/* ================ SEÇÃO DE POPULARES */
+
+.populares {
+  padding-top: 120px;
+  background-color: var(--body-background);
+  font-family: var(--font-family);
+}
+
+.container-populares {
+  max-width: 1460px;
+  margin: auto;
+  position: relative;
+}
+
+.populares-titulo h1 {
+  font-size: 55px;
+  color: var(--text-color);
+}
+
+.populares-titulo span {
+  color: var(--color-logo);
+}
+
+.titulo-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-card h3 {
+  font-size: 30px;
+  color: var(--text-color);
+  padding-bottom: 30px;
+}
+
+.body-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-card span {
+  color: var(--subtitle-color);
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.body-card span:last-child {
+  color: var(--color-logo);
+  font-weight: 300;
+}
+
+.icon-card {
+  background-image: url(/assets/img/arrow-white.svg);
+}
+
+.linha-1 {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linha-2 {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linha-central {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-left: solid 1px var(--subtitle-color);
+  right: 30rem;
+}
+
+/* ================ FIM SEÇÃO DE POPULARES */
 
 /* ================ RODAPÉ */
 
