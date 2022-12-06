@@ -17,6 +17,7 @@ a {
 
 .introducao {
   background: url(/assets/img/background.png);
+  background-position-x: 50%;
 }
 
 .introducao header {
@@ -284,10 +285,91 @@ i {
 
 .linha-central {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 1px;
+  height: 657px;
   border-left: solid 1px var(--subtitle-color);
-  right: 30rem;
+  right: 44rem;
+  z-index: 2;
+  top: 12rem;
+}
+
+.populares-2-titulo {
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.populares-2-titulo h3 {
+  font-size: 55px;
+  color: var(--text-color);
+}
+
+.populares-2-titulo span {
+  color: var(--color-logo);
+}
+
+.populares-2-cards1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.populares-2-cards2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+
+.populares-2-card {
+  background-color: var(--card-color);
+  width: 400px;
+  height: 150px;
+}
+
+.segundo {
+  background-color: var(--color-logo);
+}
+
+.segundo span {
+  color: var(--text-color) !important;
+}
+
+.artistas {
+  display: flex;
+  padding-left: 30px;
+  padding-top: 30px;
+  align-items: center;
+  gap: 3rem;
+}
+
+.populares-2-card img {
+  height: 100px;
+}
+.artista-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.artista-texto span {
+  color: var(--color-logo);
+}
+
+.populares-2-rodape {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.populares-2-rodape a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.orange-arrow {
+  background-image: url(/assets/img/arrow-orange.svg);
 }
 
 /* ================ FIM SEÇÃO DE POPULARES */
@@ -296,8 +378,7 @@ i {
 
 .rodape {
   background: var(--card-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  font-family: var(--font-family);
 }
 
 .container-rodape {
@@ -309,6 +390,12 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.linha-bottom {
+  border-bottom: 1px solid var(--subtitle-color);
 }
 
 .box-arrow-rodape {
@@ -319,6 +406,26 @@ i {
   background-position-y: center;
   width: 80px;
   height: 80px;
+}
+
+.mail-box {
+  font-size: 30px;
+  color: var(--text-color);
+}
+
+.mail-box span {
+  color: var(--color-logo);
+}
+
+.mail {
+}
+
+.mail input {
+  background-color: var(--color-input);
+  width: 250px;
+  height: 40px;
+  border: none;
+  text-align: center;
 }
 
 /* ================ FIM RODAPÉ */
